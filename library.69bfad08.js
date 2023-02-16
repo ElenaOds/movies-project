@@ -1,0 +1,2 @@
+const e=document.querySelector("body"),t=document.querySelector("#codepen"),c="light-theme",s="dark-theme";!function(){const o=localStorage.getItem("Theme");o===s?(e.classList.add(o),t.checked=!0):e.classList.add(c)}(),t.addEventListener("change",(function(){e.classList.toggle(s),e.classList.toggle(c),t=e.classList,localStorage.setItem("Theme",t);var t}));
+//# sourceMappingURL=library.69bfad08.js.map
